@@ -1,0 +1,136 @@
+body{
+    background: linear-gradient(#ffff,#6FD0DB);
+}
+
+#top_gauche{
+    background-color: transparent;
+    text-align: center;
+    margin-left: -10px;
+    margin-right: 80%;
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 30px;
+}
+#top_gauche>a:hover{
+    border-bottom:1px solid red ;
+}
+#drap_angl{
+    border: 1px red solid;
+    border-radius: 5px;
+}
+
+h1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: -80px;
+}
+
+#globale{
+    border-radius: 10px;
+    margin-top: 60px;
+}
+fieldset{
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+}
+button{
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+#nom{
+    margin-left: 85px;
+}
+#prenom{
+    margin-left: 60px;
+}
+#dn{
+    margin-left: 43px;
+}
+#email{
+    margin-left: 89px;
+}
+img{
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+#logo>a>img{
+    height: 100px;
+    width: 100px;
+    flex:1;
+    margin-left: 12px;
+    margin-top: 17px
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    position: sticky;
+    background-color: #6FD0DB;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 130px;
+    top: 0%;
+}
+
+footer{
+    background-color: #6FD0DB;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    padding-bottom:30px;
+    bottom: 0%;
+}
+
+
+.fot{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 1fr 5%;
+    grid-column-gap: 10px;
+}
+
+.partenariats{
+    grid-column: 2/3;
+}
+
+.contact{
+    grid-column: 4/5;
+    font-size: 1rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+li>a:hover{
+    color: green;
+    border-bottom:2px solid green ;
+    padding-bottom: 5px;
+}
+
+.reseau{
+    grid-column: 4/5;
+    margin-top: 50px;
+}
+
+#twiter{
+    height: 55px;
+    width: 55px;
+}
+
+.reseau>img{
+    height: 50px;
+    width: 50px;
+}
